@@ -7,6 +7,7 @@ import Programs from './components/Programs';
 import Testimonials from './components/Testimonials';
 import Gallery from './components/Gallery';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -14,10 +15,11 @@ function App() {
       <NavbarComponent />
       <Hero />
       <About />
-      {/* <Programs />
-      <Testimonials />
+      {<Programs />
+      /*<Testimonials />
       <Gallery />
-      <Contact /> */}
+      <Contact />
+      <Footer /> */}
     </>
   );
 };
