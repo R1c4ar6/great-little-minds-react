@@ -15,11 +15,11 @@ function App() {
       <NavbarComponent />
       <Hero />
       <About />
-      {<Programs />
-      /*<Testimonials />
-      <Gallery />
+      <Programs />
+      <Testimonials />
+      {/* <Gallery />
       <Contact />
-      <Footer /> */}
+      <Footer />  */}
     </>
   );
 };
