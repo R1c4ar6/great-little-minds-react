@@ -2,7 +2,11 @@ import React from 'react';
 import { useEffect, useState } from 'react';
 
 // USING VITE TO MAP THE CONTENTS OF THE FOLDER
-const heroBgImages = import.meta.glob('/src/assets/hero_bg/*.jpg|jpeg|png', { eager: true });
+const heroBgImages = {
+    ...import.meta.glob('/src/assets/hero_bg/*.jpg', { eager: true }),
+    ...import.meta.glob('/src/assets/hero_bg/*.jpeg', { eager: true }),
+    ...import.meta.glob('/src/assets/hero_bg/*.png', { eager: true }),
+};
 const heroBgArray = Object.values(heroBgImages).map((img: any) => img.default);
 // console.log(heroBgArray);
 

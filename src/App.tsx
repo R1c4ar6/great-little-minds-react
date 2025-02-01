@@ -17,9 +17,9 @@ function App() {
       <About />
       <Programs />
       <Testimonials />
-      {/* <Gallery />
-      <Contact />
-      <Footer />  */}
+      <Gallery />
+      {/* <Contact />
+      <Footer /> */}
     </>
   );
 };

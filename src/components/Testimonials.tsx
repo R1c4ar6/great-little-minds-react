@@ -54,7 +54,7 @@ const Testimonials: React.FC = () => {
     useEffect(() => {
         const interval = setInterval(() => {
             setActiveIndex((prevIndex) => (prevIndex + 1) % testimonials.length);
-        }, 6000);
+        }, 10000);
 
         return () => clearInterval(interval); // Cleanup interval on unmount
     }, []);
@@ -74,7 +74,7 @@ const Testimonials: React.FC = () => {
                                     <div className="card-body">
                                         <p className="card-text">"{testimonial.testimonial}"</p>
                                         <h5 className="card-title">- {testimonial.parentName}</h5>
-                                        <p className="card-subtitle">{testimonial.childAge}</p>
+                                        <p className="card-subtitle mb-2 text-muted">{testimonial.childAge} child</p>
                                     </div>
                                 </div>
                             </div>
