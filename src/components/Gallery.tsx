@@ -19,7 +19,7 @@ const Gallery: React.FC = () => {
                             <img
                                 src={img}
                                 alt={`Gallery Image ${index}`}
-                                className="img-fluid rounded"
+                                className="img-fluid rounded gallery-img"
                                 data-bs-toggle="modal"
                                 data-bs-target="#lightboxModal"
                                 onClick={() => {
