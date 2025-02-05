@@ -19,8 +19,8 @@ const Hero: React.FC = () => {
             setBackgroundImage(heroBgArray[index]);
         };
         changeBackground();
-        const interval = setInterval(changeBackground, 20000);
-        return () => clearInterval(interval);
+        const heroBgInterval = setInterval(changeBackground, 60 * 1000);
+        return () => clearInterval(heroBgInterval);
     }, []);
 
 

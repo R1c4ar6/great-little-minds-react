@@ -7,7 +7,8 @@ import Programs from './components/Programs';
 import Testimonials from './components/Testimonials';
 import Gallery from './components/Gallery';
 import Contact from './components/Contact';
-// import Footer from './components/Footer';
+import Footer from './components/Footer';
+import TranslateButton from './components/TranslateButton';
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       <Testimonials />
       <Gallery />
       <Contact />
-      {/* <Footer /> */}
+      <Footer />
+      <TranslateButton />
     </>
   );
 };
