@@ -1,5 +1,6 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 // USING VITE TO MAP THE CONTENTS OF THE FOLDER
 const heroBgImages = {
@@ -12,6 +13,7 @@ const heroBgArray = Object.values(heroBgImages).map((img: any) => img.default);
 
 const Hero: React.FC = () => {
     const [backgroundImage, setBackgroundImage] = useState('');
+    const { t } = useTranslation();
 
     useEffect(() => {
         const changeBackground = () => {
@@ -28,9 +30,9 @@ const Hero: React.FC = () => {
         <section id="hero" className="hero" style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}>
             <div className="hero-overlay">
                 <div className="container">
-                    <h1 className="display-4 hero-title">Welcome to Little Great Minds</h1>
-                    <p className="lead">Nurturing your child's growth from infancy to early childhood.</p>
-                    <a href="#contact" className="btn btn-warning btn-lg">Enroll Now</a>
+                    <h1 className="display-4 hero-title">{t('hero.welcome')}</h1>
+                    <p className="lead">{t('hero.description')}</p>
+                    <a href="#contact" className="btn btn-warning btn-lg">{t('hero.enroll')}</a>
                 </div>
             </div>
         </section>

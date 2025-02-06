@@ -1,16 +1,21 @@
 import { useTranslation } from 'react-i18next';
 
 function TranslateButton() {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   const changeLanguage = (language: string) => {
     i18n.changeLanguage(language);
   };
 
   return (
-    <div>
-      <button onClick={() => changeLanguage('en')}>English</button>
-      <button onClick={() => changeLanguage('es')}>Español</button>
+    <div className="nav-item dropdown">
+      <button className="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        {t('navbar.translate')}
+      </button>
+      <ul className="dropdown-menu">
+        <li><a className="dropdown-item" href="#" onClick={() => changeLanguage('en')}>English</a></li>
+        <li><a className="dropdown-item" href="#" onClick={() => changeLanguage('es')}>Spanish</a></li>
+      </ul>
     </div>
   );
 }

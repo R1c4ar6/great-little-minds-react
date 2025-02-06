@@ -8,7 +8,7 @@ import Testimonials from './components/Testimonials';
 import Gallery from './components/Gallery';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import TranslateButton from './components/TranslateButton';
+
 
 function App() {
   return (
@@ -21,7 +21,6 @@ function App() {
       <Gallery />
       <Contact />
       <Footer />
-      <TranslateButton />
     </>
   );
 };

@@ -4,20 +4,22 @@
         "programs": "Programas",
         "gallery": "Galería",
         "testimonials": "Testimonios",
-        "contact": "Contacto"
+        "contact": "Contacto",
+        "translate": "Traducir"
     },
     "hero": {
         "welcome": "¡Bienvenido a Great Little Minds!",
-        "description": "Fomentando el crecimiento de su hijo desde la infancia hasta la primera infancia."
+        "description": "Fomentando el crecimiento de su hijo desde la infancia hasta la primera infancia.",
+        "enroll": "Inscríbete Ahora"
     },
     "about": {
-        "title": "Acerca de nosotros",
-        "description": "Little Great Minds se dedica a brindar un entorno seguro, enriquecedor y estimulante para niños de 0 a 4 años. Nuestros educadores experimentados se centran en las necesidades individuales de cada niño, fomentando la creatividad, la curiosidad y las habilidades fundamentales que los preparan para un futuro brillante.",
-        "list": [
-            "Personal calificado",
-            "Entorno seguro",
-            "Plan de estudios atractivo"
-        ]
+        "title": "Sobre Nosotros",
+        "description": "Little Great Minds se dedica a proporcionar un entorno seguro, enriquecedor y estimulante para niños de 0 a 3 años. Nuestros educadores experimentados se centran en las necesidades individuales de cada niño, fomentando la creatividad, la curiosidad y las habilidades fundamentales que los preparan para un futuro brillante.",
+        "list": {
+            "staff": "Personal Calificado",
+            "environment": "Entorno Seguro",
+            "curriculum": "Plan de Estudios Atractivo"
+        }
     },
     "programs": {
         "title": "Nuestros Programas",

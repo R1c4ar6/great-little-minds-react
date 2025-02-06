@@ -1,25 +1,25 @@
 import React from 'react';
 import { Container, Row } from 'react-bootstrap';
+import { useTranslation } from 'react-i18next';
 
 const About: React.FC = () => {
+    const { t } = useTranslation();
     return (
         <section id="about" className="section-padding">
             <Container>
                 <Row className="align-items-center">
                     <div className="col-md-6">
-                        <img src="/src/assets/IMG-20220713-WA0006.jpg" className="img-fluid rounded" alt="About Us"></img>
+                        <img src="/src/assets/IMG-20220713-WA0006.jpg" className="img-fluid rounded" alt="{t('about.title')}"></img>
                     </div>
                     <div className="col-md-6">
-                        <h2>About Us</h2>
+                        <h2>{t('about.title')}</h2>
                         <p>
-                            Little Great Minds is dedicated to providing a safe, nurturing, and stimulating environment for
-                            children aged 0 to 4 years. Our experienced educators focus on each child's individual needs,
-                            fostering creativity, curiosity, and foundational skills that prepare them for a bright future.
+                            {t('about.description')}
                         </p>
                         <ul className="list-unstyled">
-                            <li><i className="bi bi-check-circle-fill text-primary"></i> Qualified Staff</li>
-                            <li><i className="bi bi-check-circle-fill text-primary"></i> Safe Environment</li>
-                            <li><i className="bi bi-check-circle-fill text-primary"></i> Engaging Curriculum</li>
+                            <li><i className="bi bi-check-circle-fill text-primary"></i> {t('about.list.staff')}</li>
+                            <li><i className="bi bi-check-circle-fill text-primary"></i> {t('about.list.environment')}</li>
+                            <li><i className="bi bi-check-circle-fill text-primary"></i> {t('about.list.curriculum')}</li>
                         </ul>
                     </div>
                 </Row>

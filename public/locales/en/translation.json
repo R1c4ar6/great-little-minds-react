@@ -1,6 +1,49 @@
 {
-    "hero":{
+    "navbar": {
+        "about": "About",
+        "programs": "Programs",
+        "gallery": "Gallery",
+        "testimonials": "Testimonials",
+        "contact": "Contact",
+        "translate": "Translate"
+    },
+    "hero": {
         "welcome": "Welcome to Great Little Minds!",
-        "description": "Nurturing your child's growth from infancy to early childhood."
+        "description": "Nurturing your child's growth from infancy to early childhood.",
+        "enroll": "Enroll Now"
+    },
+    "about": {
+        "title": "About Us",
+        "description": "Little Great Minds is dedicated to providing a safe, nurturing, and stimulating environment for children aged 0 to 3 years. Our experienced educators focus on each child's individual needs, fostering creativity, curiosity, and foundational skills that prepare them for a bright future.",
+        "list": {
+            "staff": "Qualified Staff",
+            "environment": "Safe Environment",
+            "curriculum": "Engaging Curriculum"
+        }
+    },
+    "programs": {
+        "title": "Our Programs",
+        "infantCare": {
+            "title": "Infant Care (0-1 years)",
+            "description": "Providing a loving and secure environment for your little ones."
+        },
+        "toddlerProgram": {
+            "title": "Toddler Program (1-2 years)",
+            "description": "Encouraging exploration and developing essential motor skills."
+        },
+        "preschool": {
+            "title": "Preschool (2-3 years)",
+            "description": "Fostering a solid foundation for academic and social success."
+        },
+        "learnMore": "Learn More"
+    },
+    "gallery": {
+        "title": "Gallery"
+    },
+    "testimonials": {
+        "title": "Testimonials"
+    },
+    "contact": {
+        "title": "Contact"
     }
 }
