@@ -9,7 +9,7 @@
     },
     "hero": {
         "welcome": "¡Bienvenido a Great Little Minds!",
-        "description": "Fomentando el crecimiento de su hijo desde la infancia hasta la primera infancia.",
+        "description": "Fomentando el crecimiento de su hijo desde la infancia hasta la niñez temprana.",
         "enroll": "Inscríbete Ahora"
     },
     "about": {
@@ -33,7 +33,7 @@
         },
         "preschool": {
             "title": "Preescolar (2-3 años)",
-            "description": "Sentando las bases para el éxito académico y social."
+            "description": "Sentando las bases para el éxito académico y buen desarrollo social."
         },
         "learnMore": "Aprende Más"
     },
@@ -41,9 +41,52 @@
         "title": "Galería"
     },
     "testimonials": {
-        "title": "Testimonios"
+        "title": "Lo Que Dicen Los Padres",
+        "list": [
+            {
+                "parentName": "Emma Johnson",
+                "childAge": "2 años",
+                "testimonial": "Nuestra hija ha florecido desde que comenzó en Little Great Minds. El ambiente cálido y enriquecedor le ha dado la confianza para explorar y aprender. Nos encantan las actualizaciones diarias y el enfoque en el aprendizaje basado en el juego."
+            },
+            {
+                "parentName": "Michael Brown",
+                "childAge": "18 meses",
+                "testimonial": "Los programas de intervención temprana en Little Great Minds han sido increíbles. Nuestro hijo era un poco tímido, pero los maestros lo han ayudado a salir de su caparazón. Apreciamos la atención personalizada y las actividades divertidas."
+            },
+            {
+                "parentName": "Sophia Garcia",
+                "childAge": "3 años",
+                "testimonial": "Las áreas de juego al aire libre son fantásticas, y llega a casa emocionada de contarnos sobre sus aventuras. ¡Una experiencia realmente maravillosa hasta ahora!"
+            },
+            {
+                "parentName": "David Lee",
+                "childAge": "1 año",
+                "testimonial": "Los pequeños tamaños de las clases permiten una atención individualizada, y sentimos que nuestro hijo está aprendiendo y creciendo cada día."
+            },
+            {
+                "parentName": "Olivia Thompson",
+                "childAge": "2.5 años",
+                "testimonial": "Los programas de lenguaje y alfabetización en Little Great Minds son excepcionales. El vocabulario de nuestra hija ha explotado, y le encanta la hora del cuento. Los maestros son pacientes y hacen que el aprendizaje sea divertido para los más pequeños."
+            },
+            {
+                "parentName": "Christopher Wilson",
+                "childAge": "18 meses",
+                "testimonial": "No podríamos estar más contentos con la experiencia general en Little Great Minds. Los maestros son atentos y responden a las necesidades de nuestro hijo. Los horarios diarios están bien organizados, y apreciamos el enfoque en el desarrollo social."
+            },
+            {
+                "parentName": "Emily Davis",
+                "childAge": "3 años",
+                "testimonial": "Mi hijo ha progresado increíblemente desde que se inscribió en Little Great Minds. Los maestros son fantásticos, y las actividades apropiadas para su edad lo mantienen comprometido. Recomendamos altamente esta escuela por su enfoque holístico de la educación temprana."
+            }
+        ]
     },
     "contact": {
-        "title": "Contacto"
+        "title": "Contacto",
+        "description": "¡Nos encantaría saber de ti! Comunícate con nosotros si tienes alguna pregunta o comentario.",
+        "formName": "Nombre Completo",
+        "formEmail": "Correo electrónico",
+        "formPhone": "Número de Teléfono",
+        "formMessage": "Mensaje/Comentario",    
+        "formButton": "Enviar"
     }
 }

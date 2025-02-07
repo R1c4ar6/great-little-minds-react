@@ -41,9 +41,52 @@
         "title": "Gallery"
     },
     "testimonials": {
-        "title": "Testimonials"
+        "title": "What Parents Say",
+        "list": [
+            {
+                "parentName": "Emma Johnson",
+                "childAge": "2 years old",
+                "testimonial": "The warm and nurturing environment has given her the confidence to explore and learn. We love the daily updates and the focus on play-based learning."
+            },
+            {
+                "parentName": "Michael Brown",
+                "childAge": "18 months",
+                "testimonial": "The early intervention programs at Little Great Minds have been incredible. Our son was a bit shy, but the teachers have helped him come out of his shell. We appreciate the personalized attention and the fun activities."
+            },
+            {
+                "parentName": "Sophia Garcia",
+                "childAge": "3 years old",
+                "testimonial": "My daughter adores her teachers and her friends at Little Great Minds. The outdoor play areas are fantastic, and she comes home excited to tell us about her adventures. A truly wonderful experience so far!"
+            },
+            {
+                "parentName": "David Lee",
+                "childAge": "1 year old",
+                "testimonial": "We are thrilled with the care and education our son is receiving at Little Great Minds. The small class sizes allow for individualized attention, and we feel our son is learning and growing every day."
+            },
+            {
+                "parentName": "Olivia Thompson",
+                "childAge": "2.5 years old",
+                "testimonial": "The language and literacy programs at Little Great Minds are outstanding. Our daughter's vocabulary has exploded, and she loves storytime. The teachers are patient and make learning fun for the little ones."
+            },
+            {
+                "parentName": "Christopher Wilson",
+                "childAge": "18 months",
+                "testimonial": "The teachers are attentive and responsive to our son's needs. The daily schedules are well-organized, and we appreciate the focus on social development."
+            },
+            {
+                "parentName": "Emily Davis",
+                "childAge": "3 years old",
+                "testimonial": "My son has made incredible progress since enrolling in Little Great Minds. Their age-appropriate activities keep him engaged. We highly recommend this school for its holistic approach to early education."
+            }
+        ]
     },
     "contact": {
-        "title": "Contact"
+        "title": "Contact Us",
+        "description": "We'd love to hear from you! Reach out to us for any inquiries or feedback.",
+        "formName": "Full Name",
+        "formEmail": "Email",
+        "formPhone": "Phone Number",
+        "formMessage": "Your Message",    
+        "formButton": "Submit"
     }
 }
