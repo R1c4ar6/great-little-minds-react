@@ -1,4 +1,4 @@
-
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './styles/App.css';
 import NavbarComponent from './components/Navbar';
 import Hero from './components/Hero';
@@ -8,21 +8,31 @@ import Testimonials from './components/Testimonials';
 import Gallery from './components/Gallery';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-
+import ProgramDetails from './components/ProgramDetails';
 
 function App() {
   return (
-    <>
+    <Router>
       <NavbarComponent />
-      <Hero />
-      <About />
-      <Programs />
-      <Testimonials />
-      <Gallery />
-      <Contact />
+      <Routes>
+        {/* Main pages */}
+        <Route path="/" element={
+          <>
+            <Hero />
+            <About />
+            <Programs />
+            <Testimonials />
+            <Gallery />
+            <Contact />
+          </>
+        } />
+
+        {/* Program details page */}
+        <Route path="/programs/:id" element={<ProgramDetails />} />
+      </Routes>
       <Footer />
-    </>
+    </Router>
   );
-};
+}
 
 export default App;

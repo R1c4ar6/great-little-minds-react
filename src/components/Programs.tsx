@@ -4,6 +4,7 @@ import toddlerCare from '../assets/ana-klipper-1m2ZCygwVZ4-unsplash.jpg';
 import preschool from '../assets/gabe-pierce-mLqWFEtlIEs-unsplash.jpg';
 import { Container } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
 const Programs: React.FC = () => {
     const { t } = useTranslation();
@@ -19,7 +20,9 @@ const Programs: React.FC = () => {
                             <div className="card-body">
                                 <h5 className="card-title">{t('programs.infantCare.title')}</h5>
                                 <p className="card-text">{t('programs.infantCare.description')}</p>
-                                <a href="#" className="btn btn-outline-primary">{t('programs.learnMore')}</a>
+                                <Link to="/programs/infantCare" className="btn btn-outline-primary">
+                                    {t('programs.learnMore')}
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -29,7 +32,9 @@ const Programs: React.FC = () => {
                             <div className="card-body">
                                 <h5 className="card-title">{t('programs.toddlerProgram.title')}</h5>
                                 <p className="card-text">{t('programs.toddlerProgram.description')}</p>
-                                <a href="#" className="btn btn-outline-primary">{t('programs.learnMore')}</a>
+                                <Link to="/programs/toddlerProgram" className="btn btn-outline-primary">
+                                    {t('programs.learnMore')}
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -39,7 +44,9 @@ const Programs: React.FC = () => {
                             <div className="card-body">
                                 <h5 className="card-title">{t('programs.preschool.title')}</h5>
                                 <p className="card-text">{t('programs.preschool.description')}</p>
-                                <a href="#" className="btn btn-outline-primary">{t('programs.learnMore')}</a>
+                                <Link to="/programs/preschool" className="btn btn-outline-primary">
+                                    {t('programs.learnMore')}
+                                </Link>
                             </div>
                         </div>
                     </div>

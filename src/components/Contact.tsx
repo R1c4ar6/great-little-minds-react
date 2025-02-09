@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 
 const Contact: React.FC = () => {
     const { t } = useTranslation();
+    
     return (
         <section id="contact" className="section-padding">
             <Container>
@@ -21,19 +22,19 @@ const Contact: React.FC = () => {
                                 <form id="contactForm" action="#" method="post">
                                     <div className="mb-4">
                                         <label htmlFor="fullName" className="form-label">{t("contact.formName")} <span className="text-danger">*</span></label>
-                                        <input type="text" name="fullName" className="form-control" id="fullName" placeholder="Enter Your Full Name" required />
+                                        <input type="text" name="fullName" className="form-control" id="fullName" placeholder={`${t('contact.formNamePlaceholder')}`} required />
                                     </div>
                                     <div className="mb-4">
                                         <label htmlFor="emailAddress" className="form-label">{t("contact.formEmail")} <span className="text-danger">*</span></label>
-                                        <input type="email" name="emailAddress" className="form-control" id="emailAddress" placeholder="Enter Your Email" required />
+                                        <input type="email" name="emailAddress" className="form-control" id="emailAddress" placeholder={`${t('contact.formEmailPlaceholder')}`} required />
                                     </div>
                                     <div className="mb-4">
                                         <label htmlFor="phoneNumber" className="form-label">{t("contact.formPhone")} </label>
-                                        <input type="tel" name="phoneNumber" className="form-control" id="phoneNumber" placeholder="Enter Your Phone Number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" />
+                                        <input type="tel" name="phoneNumber" className="form-control" id="phoneNumber" placeholder={`${t('contact.formPhonePlaceholder')}`} pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" />
                                     </div>
                                     <div className="mb-4">
                                         <label htmlFor="userMessage" className="form-label">{t("contact.formMessage")} <span className="text-danger">*</span></label>
-                                        <textarea name="userMessage" id="userMessage" rows={6} placeholder="Please enter your message here..." className="form-control" required></textarea>
+                                        <textarea name="userMessage" id="userMessage" rows={6} placeholder={`${t('contact.formMessagePlaceholder')}`} className="form-control" required></textarea>
                                     </div>
                                     <div className="text-center">
                                         <button type="submit" className="btn btn-warning btn-lg">{t("contact.formButton")}</button>

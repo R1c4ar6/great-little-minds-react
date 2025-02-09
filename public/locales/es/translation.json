@@ -35,7 +35,7 @@
             "title": "Preescolar (2-3 años)",
             "description": "Sentando las bases para el éxito académico y buen desarrollo social."
         },
-        "learnMore": "Aprende Más"
+        "learnMore": "Ver Más"
     },
     "gallery": {
         "title": "Galería"
@@ -84,9 +84,13 @@
         "title": "Contacto",
         "description": "¡Nos encantaría saber de ti! Comunícate con nosotros si tienes alguna pregunta o comentario.",
         "formName": "Nombre Completo",
+        "formNamePlaceholder": "Ingrese su Nombre Completo",
         "formEmail": "Correo electrónico",
+        "formEmailPlaceholder": "Ingrese su Correo Electrónico",
         "formPhone": "Número de Teléfono",
+        "formPhonePlaceholder": "Ingrese su Numero de Teléfono",
         "formMessage": "Mensaje/Comentario",    
+        "formMessagePlaceholder": "Escriba aquí su mensaje...",
         "formButton": "Enviar"
     }
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row } from "react-bootstrap";
+import { useTranslation } from "react-i18next";
 
 const galleryImages = {
     ...import.meta.glob('/src/assets/gallery/*.jpg', { eager: true }),
@@ -9,10 +10,12 @@ const galleryImages = {
 const galleryArray = Object.values(galleryImages).map((img: any) => img.default);
 
 const Gallery: React.FC = () => {
+    const { t } = useTranslation();
+
     return (
         <section id="gallery" className="bg-light section-padding">
             <Container>
-                <h2 className="text-center mb-5">Gallery</h2>
+                <h2 className="text-center mb-5">{t("gallery.title")}</h2>
                 <Row>
                     {galleryArray.map((img, index) => (
                         <div key={index} className="col-md-4 col-sm-6 col-xs-12 mb-4">

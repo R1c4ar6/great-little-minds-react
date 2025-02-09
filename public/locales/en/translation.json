@@ -25,17 +25,51 @@
         "title": "Our Programs",
         "infantCare": {
             "title": "Infant Care (0-1 years)",
-            "description": "Providing a loving and secure environment for your little ones."
+            "description": "Providing a loving and secure environment for your little ones.",
+            "details": "Infant Care Details",
+            "activities": [
+                "Sensory exploration",
+                "Gentle music and lullabies",
+                "Tummy time for motor development"
+            ],
+            "schedule": {
+                "morning": "Feeding & nap time",
+                "afternoon": "Interactive play & storytime"
+            },
+            "keyFocus": "Building trust, sensory stimulation, and early motor skills."
         },
         "toddlerProgram": {
             "title": "Toddler Program (1-2 years)",
-            "description": "Encouraging exploration and developing essential motor skills."
+            "description": "Encouraging exploration and developing essential motor skills.",
+            "details": "Toddler Program Details",
+            "activities": [
+                "Creative play with shapes and colors",
+                "Music and movement exercises",
+                "Outdoor play and social interaction"
+            ],
+            "schedule": {
+                "morning": "Circle time & guided activities",
+                "afternoon": "Nap time & outdoor exploration"
+            },
+            "keyFocus": "Promoting curiosity, coordination, and social engagement."
         },
         "preschool": {
             "title": "Preschool (2-3 years)",
-            "description": "Fostering a solid foundation for academic and social success."
+            "description": "Fostering a solid foundation for academic and social success.",
+            "details": "Preschool Details",
+            "activities": [
+                "Basic number and letter recognition",
+                "Storytelling and group discussions",
+                "Hands-on creative arts and crafts"
+            ],
+            "schedule": {
+                "morning": "Structured learning & group play",
+                "afternoon": "Creative activities & quiet time"
+            },
+            "keyFocus": "Encouraging early literacy, teamwork, and problem-solving skills."
         },
-        "learnMore": "Learn More"
+        "learnMore": "Learn More",
+        "notFound": "Program Not Found"
     },
     "gallery": {
         "title": "Gallery"
@@ -84,9 +118,13 @@
         "title": "Contact Us",
         "description": "We'd love to hear from you! Reach out to us for any inquiries or feedback.",
         "formName": "Full Name",
+        "formNamePlaceholder": "Enter Your Full Name",
         "formEmail": "Email",
+        "formEmailPlaceholder": "Enter Your Email",
         "formPhone": "Phone Number",
-        "formMessage": "Your Message",    
+        "formPhonePlaceholder": "Enter Your Phone Number",
+        "formMessage": "Your Message",
+        "formMessagePlaceholder": "Please enter your message here...",
         "formButton": "Submit"
     }
 }
