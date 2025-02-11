@@ -26,7 +26,7 @@
         "infantCare": {
             "title": "Infant Care (0-1 years)",
             "description": "Providing a loving and secure environment for your little ones.",
-            "details": "Infant Care Details",
+            "details": "Our Infant Care program is designed to provide a safe and nurturing space for your baby’s earliest developmental stages. With a low caregiver-to-infant ratio, we ensure personalized attention and care. Our curriculum includes sensory play, gentle music, and activities that promote motor skills and emotional bonding. We also provide daily updates to keep you informed about your baby’s progress and milestones.",
             "activities": [
                 "Sensory exploration",
                 "Gentle music and lullabies",
@@ -41,7 +41,7 @@
         "toddlerProgram": {
             "title": "Toddler Program (1-2 years)",
             "description": "Encouraging exploration and developing essential motor skills.",
-            "details": "Toddler Program Details",
+            "details": "Our Toddler Program focuses on fostering curiosity and independence in your growing child. Through structured play, creative activities, and outdoor exploration, we help toddlers develop their motor skills, language abilities, and social interactions. Our experienced educators create a fun and engaging environment where your child can thrive and build confidence.",
             "activities": [
                 "Creative play with shapes and colors",
                 "Music and movement exercises",
@@ -56,7 +56,7 @@
         "preschool": {
             "title": "Preschool (2-3 years)",
             "description": "Fostering a solid foundation for academic and social success.",
-            "details": "Preschool Details",
+            "details": "Our Preschool program prepares your child for the next steps in their educational journey. Through a blend of structured learning and creative play, we focus on early literacy, numeracy, and problem-solving skills. Our curriculum includes storytelling, group discussions, and hands-on activities that encourage teamwork and critical thinking. We also emphasize social-emotional development to help your child build strong relationships and self-confidence.",
             "activities": [
                 "Basic number and letter recognition",
                 "Storytelling and group discussions",
@@ -70,6 +70,10 @@
         },
         "learnMore": "Learn More",
         "notFound": "Program Not Found"
+    },
+    "programDetails": {
+        "title": "Activities",
+        "close": "Close"
     },
     "gallery": {
         "title": "Gallery"

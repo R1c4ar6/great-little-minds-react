@@ -25,17 +25,55 @@
         "title": "Nuestros Programas",
         "infantCare": {
             "title": "Cuidado de Bebés (0-1 años)",
-            "description": "Brindando un ambiente amoroso y seguro para los más pequeños."
+            "description": "Brindando un ambiente amoroso y seguro para los más pequeños.",
+            "details": "Nuestro programa de Cuidado de Bebés está diseñado para proporcionar un espacio seguro y enriquecedor para las primeras etapas de desarrollo de su bebé. Con una baja proporción de cuidadores por bebé, garantizamos atención y cuidado personalizados. Nuestro plan de estudios incluye juegos sensoriales, música suave y actividades que promueven las habilidades motoras y el vínculo emocional. También proporcionamos actualizaciones diarias para mantenerlo informado sobre el progreso y los hitos de su bebé.",
+            "activities": [
+                "Exploración sensorial",
+                "Música suave y canciones de cuna",
+                "Tiempo boca abajo para el desarrollo motor"
+            ],
+            "schedule": {
+                "morning": "Hora de alimentación y siesta",
+                "afternoon": "Juego interactivo y hora de cuentos"
+            },
+            "keyFocus": "Construyendo confianza, estimulación sensorial y habilidades motoras tempranas."
         },
         "toddlerProgram": {
             "title": "Programa para Niños Pequeños (1-2 años)",
-            "description": "Fomentando la exploración y desarrollando habilidades motoras esenciales."
+            "description": "Fomentando la exploración y desarrollando habilidades motoras esenciales.",
+            "details": "Nuestro Programa para Niños Pequeños se centra en fomentar la curiosidad y la independencia en su hijo en crecimiento. A través del juego estructurado, actividades creativas y exploración al aire libre, ayudamos a los niños pequeños a desarrollar sus habilidades motoras, capacidades lingüísticas e interacciones sociales. Nuestros educadores experimentados crean un ambiente divertido y atractivo donde su hijo puede prosperar y ganar confianza.",
+            "activities": [
+                "Juego creativo con formas y colores",
+                "Ejercicios de música y movimiento",
+                "Juego al aire libre e interacción social"
+            ],
+            "schedule": {
+                "morning": "Hora en círculo y actividades guiadas",
+                "afternoon": "Hora de la siesta y exploración al aire libre"
+            },
+            "keyFocus": "Promoviendo la curiosidad, la coordinación y la interacción social."
         },
         "preschool": {
             "title": "Preescolar (2-3 años)",
-            "description": "Sentando las bases para el éxito académico y buen desarrollo social."
+            "description": "Sentando las bases para el éxito académico y buen desarrollo social.",
+            "details": "Nuestro programa de Preescolar prepara a su hijo para los próximos pasos en su viaje educativo. A través de una combinación de aprendizaje estructurado y juego creativo, nos enfocamos en la alfabetización temprana, la aritmética y las habilidades para resolver problemas. Nuestro plan de estudios incluye narración de cuentos, discusiones en grupo y actividades prácticas que fomentan el trabajo en equipo y el pensamiento crítico. También enfatizamos el desarrollo socioemocional para ayudar a su hijo a construir relaciones sólidas y confianza en sí mismo.",
+            "activities": [
+                "Reconocimiento básico de números y letras",
+                "Narración de cuentos y discusiones en grupo",
+                "Artes y manualidades prácticas"
+            ],
+            "schedule": {
+                "morning": "Aprendizaje estructurado y juego en grupo",
+                "afternoon": "Actividades creativas y tiempo de tranquilidad"
+            },
+            "keyFocus": "Fomentando la alfabetización temprana, el trabajo en equipo y las habilidades para resolver problemas."
         },
-        "learnMore": "Ver Más"
+        "learnMore": "Ver Más",
+        "notFound": "Programa No Encontrado"
+    },
+    "programDetails": {
+        "title": "Actividades",
+        "close": "Cerrar"
     },
     "gallery": {
         "title": "Galería"
@@ -89,7 +127,7 @@
         "formEmailPlaceholder": "Ingrese su Correo Electrónico",
         "formPhone": "Número de Teléfono",
         "formPhonePlaceholder": "Ingrese su Numero de Teléfono",
-        "formMessage": "Mensaje/Comentario",    
+        "formMessage": "Mensaje/Comentario",
         "formMessagePlaceholder": "Escriba aquí su mensaje...",
         "formButton": "Enviar"
     }

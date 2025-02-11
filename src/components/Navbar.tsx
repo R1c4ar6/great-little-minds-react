@@ -8,7 +8,7 @@ const NavbarComponent: React.FC = () => {
     return (
         <Navbar bg="light" expand="lg" fixed="top" className="shadow-sm">
             <Container>
-                <Navbar.Brand href="#" className="menu-title">Little Great Minds</Navbar.Brand>
+                <Navbar.Brand href="/" className="menu-title">Little Great Minds</Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarNav" />
                 <Navbar.Collapse id="navbarNav" className="justify-content-end">
                     <Nav>
