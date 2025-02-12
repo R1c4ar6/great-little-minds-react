@@ -129,6 +129,12 @@
         "formPhonePlaceholder": "Ingrese su Numero de Teléfono",
         "formMessage": "Mensaje/Comentario",
         "formMessagePlaceholder": "Escriba aquí su mensaje...",
-        "formButton": "Enviar"
+        "formButton": "Enviar",
+        "formSuccessMessage": "Gracias por su mensaje. Nos pondremos en contacto con usted lo antes posible."
+    },
+    "footer": {
+        "copyright": "© 2025 Little Great Minds. Todos los Derechos Reservados.",
+        "privacy": "Política de Privacidad",
+        "terms": "Términos de Servicio"
     }
 }

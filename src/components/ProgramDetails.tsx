@@ -7,7 +7,7 @@ import preschool from '../assets/gabe-pierce-mLqWFEtlIEs-unsplash.jpg';
 import { Container, Row} from 'react-bootstrap';
 
 const ProgramDetails: React.FC = () => {
-    const { id } = useParams<{ id: string }>(); // Get the program ID from the URL
+    const { id } = useParams<{ id: string }>();
     const { t } = useTranslation();
 
     // Content mapping for each program

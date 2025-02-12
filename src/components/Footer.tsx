@@ -1,7 +1,10 @@
 import React from "react";
 import { Container } from "react-bootstrap";
+import { useTranslation } from "react-i18next";
 
 const Footer: React.FC = () => {
+    const { t } = useTranslation();
+
     return (
         <footer className="footer bg-dark text-white py-3">
             <Container className="text-center">
@@ -20,11 +23,11 @@ const Footer: React.FC = () => {
                     </a>
                 </div>
 
-                <p className="mb-0">&copy; 2025 Little Great Minds. All rights reserved.</p>
+                <p className="mb-0">{t('footer.copyright')}</p>
 
                 <div className="mt-3">
-                    <a href="#" className="text-white me-3 small">Privacy Policy</a>
-                    <a href="#" className="text-white small">Terms of Service</a>
+                    <a href="#" className="text-white me-3 small">{t('footer.privacy')}</a>
+                    <a href="#" className="text-white small">{t('footer.terms')}</a>
                 </div>
             </Container>
         </footer>
