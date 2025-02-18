@@ -15,7 +15,7 @@ const About: React.FC = () => {
                     </div>
                     <div className="col-md-6">
                         <h2>{t('about.title')}</h2>
-                        <p>
+                        <p className="text-break">
                             {t('about.description')}
                         </p>
                         <ul className="list-unstyled">

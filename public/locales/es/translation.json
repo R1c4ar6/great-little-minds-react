@@ -14,7 +14,7 @@
     },
     "about": {
         "title": "Sobre Nosotros",
-        "description": "Little Great Minds se dedica a proporcionar un entorno seguro, enriquecedor y estimulante para niños de 0 a 3 años. Nuestros educadores experimentados se centran en las necesidades individuales de cada niño, fomentando la creatividad, la curiosidad y las habilidades fundamentales que los preparan para un futuro brillante.",
+        "description": "“Little Great Minds” es un espacio en el que tanto niños como padres se reúnen para crecer en familia. Nuestra visión como centro infantil es que cada día sea una oportunidad para que los más pequeños descubran el mundo que les rodea de manera natural, a través de la curiosidad, el movimiento y el juego, mientras que los padres se sienten acompañados en el proceso.\nNuestro pilar principal de enseñanza es el Creative Curriculum for Infant and Toddlers, que proporciona un enfoque educativo comprobado. Este currículum permite a los niños tomar la iniciativa en su proceso de aprendizaje ofreciendo así un enfoque respetuoso y natural para nuestros pequeños.",
         "list": {
             "staff": "Personal Calificado",
             "environment": "Entorno Seguro",
@@ -24,9 +24,9 @@
     "programs": {
         "title": "Nuestros Programas",
         "infantCare": {
-            "title": "Cuidado de Bebés (0-1 años)",
+            "title": "Creative Curriculum para bebés (0-1 años)",
             "description": "Brindando un ambiente amoroso y seguro para los más pequeños.",
-            "details": "Nuestro programa de Cuidado de Bebés está diseñado para proporcionar un espacio seguro y enriquecedor para las primeras etapas de desarrollo de su bebé. Con una baja proporción de cuidadores por bebé, garantizamos atención y cuidado personalizados. Nuestro plan de estudios incluye juegos sensoriales, música suave y actividades que promueven las habilidades motoras y el vínculo emocional. También proporcionamos actualizaciones diarias para mantenerlo informado sobre el progreso y los hitos de su bebé.",
+            "details": "El Creative Curriculum para bebés se centra en crear vínculos seguros a través de un cuidado receptivo, la exploración sensorial y rutinas individualizadas. Los bebés aprenden mejor en un entorno afectuoso donde los cuidadores apoyan su curiosidad natural, fomentan la comunicación temprana mediante canciones e interacciones y ofrecen oportunidades para el movimiento y el descubrimiento. Siguiendo el ritmo único de cada niño, el currículo promueve un sentido de seguridad, favorece el desarrollo y sienta las bases para el aprendizaje a lo largo de la vida.",
             "activities": [
                 "Exploración sensorial",
                 "Música suave y canciones de cuna",
@@ -39,9 +39,9 @@
             "keyFocus": "Construyendo confianza, estimulación sensorial y habilidades motoras tempranas."
         },
         "toddlerProgram": {
-            "title": "Programa para Niños Pequeños (1-2 años)",
+            "title": "Creative Curriculum para niños (1-2 años)",
             "description": "Fomentando la exploración y desarrollando habilidades motoras esenciales.",
-            "details": "Nuestro Programa para Niños Pequeños se centra en fomentar la curiosidad y la independencia en su hijo en crecimiento. A través del juego estructurado, actividades creativas y exploración al aire libre, ayudamos a los niños pequeños a desarrollar sus habilidades motoras, capacidades lingüísticas e interacciones sociales. Nuestros educadores experimentados crean un ambiente divertido y atractivo donde su hijo puede prosperar y ganar confianza.",
+            "details": "El Creative Curriculum para niños de 1 a 2 años se centra en fomentar la independencia, la curiosidad y las habilidades socioemocionales tempranas a través del aprendizaje basado en el juego y la exploración. En esta etapa, los niños pequeños tienen un gran deseo de moverse, tocar y descubrir su entorno, por lo que el currículo proporciona un ambiente seguro y estimulante donde pueden explorar libremente. A través de un cuidado receptivo, rutinas sencillas e interacciones significativas, los niños desarrollan el lenguaje, la capacidad de resolver problemas y la confianza en sí mismos, mientras aprenden a expresar sus emociones y a relacionarse con los demás.",
             "activities": [
                 "Juego creativo con formas y colores",
                 "Ejercicios de música y movimiento",
@@ -54,9 +54,9 @@
             "keyFocus": "Promoviendo la curiosidad, la coordinación y la interacción social."
         },
         "preschool": {
-            "title": "Preescolar (2-3 años)",
+            "title": "Creative Curriculum for Twos (2-3 años)",
             "description": "Sentando las bases para el éxito académico y buen desarrollo social.",
-            "details": "Nuestro programa de Preescolar prepara a su hijo para los próximos pasos en su viaje educativo. A través de una combinación de aprendizaje estructurado y juego creativo, nos enfocamos en la alfabetización temprana, la aritmética y las habilidades para resolver problemas. Nuestro plan de estudios incluye narración de cuentos, discusiones en grupo y actividades prácticas que fomentan el trabajo en equipo y el pensamiento crítico. También enfatizamos el desarrollo socioemocional para ayudar a su hijo a construir relaciones sólidas y confianza en sí mismo.",
+            "details": "El Creative Curriculum para niños de 2 a 3 años apoya la creciente independencia, el desarrollo del lenguaje y las habilidades cognitivas tempranas a través de experiencias prácticas e interactivas. A esta edad, los niños son naturalmente curiosos y prosperan en un entorno que fomenta el movimiento, la creatividad y la interacción social. El currículo equilibra la estructura con la flexibilidad, permitiendo que los niños tomen decisiones, participen en el juego simbólico y desarrollen habilidades para resolver problemas. A través de actividades guiadas y exploración, los niños de 2 años adquieren habilidades fundamentales en comunicación, autorregulación y colaboración, preparándolos para las siguientes etapas del aprendizaje.",
             "activities": [
                 "Reconocimiento básico de números y letras",
                 "Narración de cuentos y discusiones en grupo",
@@ -73,6 +73,8 @@
     },
     "programDetails": {
         "title": "Actividades",
+        "scheduleTitle": "Horario Diario",
+        "scheduleDescription": "Haz clic en la imagen para ver el horario completo.",
         "close": "Cerrar"
     },
     "gallery": {

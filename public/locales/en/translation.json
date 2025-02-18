@@ -14,7 +14,7 @@
     },
     "about": {
         "title": "About Us",
-        "description": "Little Great Minds is dedicated to providing a safe, nurturing, and stimulating environment for children aged 0 to 3 years. Our experienced educators focus on each child's individual needs, fostering creativity, curiosity, and foundational skills that prepare them for a bright future.",
+        "description": "“Little Great Minds” is a space where both children and parents come together to grow as a family. Our vision as an early childhood center is to make every day an opportunity for little ones to naturally discover the world around them through curiosity, movement, and play, while parents feel supported throughout the process.\nOur main teaching foundation is the Creative Curriculum for Infants and Toddlers, which provides a research-based educational approach. This curriculum allows children to take the lead in their learning journey, offering a respectful and natural approach for our little ones.",
         "list": {
             "staff": "Qualified Staff",
             "environment": "Safe Environment",
@@ -24,9 +24,9 @@
     "programs": {
         "title": "Our Programs",
         "infantCare": {
-            "title": "Infant Care (0-1 years)",
+            "title": "Creative Curriculum for Infants (0-1 years)",
             "description": "Providing a loving and secure environment for your little ones.",
-            "details": "Our Infant Care program is designed to provide a safe and nurturing space for your baby’s earliest developmental stages. With a low caregiver-to-infant ratio, we ensure personalized attention and care. Our curriculum includes sensory play, gentle music, and activities that promote motor skills and emotional bonding. We also provide daily updates to keep you informed about your baby’s progress and milestones.",
+            "details": "The Creative Curriculum for Infants focuses on building secure attachments through responsive caregiving, sensory exploration, and individualized routines. Babies learn best in a nurturing environment where caregivers support their natural curiosity, encourage early communication through songs and interactions, and provide opportunities for movement and discovery. By following each child's unique rhythms, the curriculum fosters a sense of security, promotes development, and lays the foundation for lifelong learning.",
             "activities": [
                 "Sensory exploration",
                 "Gentle music and lullabies",
@@ -39,9 +39,9 @@
             "keyFocus": "Building trust, sensory stimulation, and early motor skills."
         },
         "toddlerProgram": {
-            "title": "Toddler Program (1-2 years)",
+            "title": "Creative Curriculum for Toddlers (1-2 years)",
             "description": "Encouraging exploration and developing essential motor skills.",
-            "details": "Our Toddler Program focuses on fostering curiosity and independence in your growing child. Through structured play, creative activities, and outdoor exploration, we help toddlers develop their motor skills, language abilities, and social interactions. Our experienced educators create a fun and engaging environment where your child can thrive and build confidence.",
+            "details": "The Creative Curriculum for Toddlers focuses on fostering independence, curiosity, and early social-emotional skills through play-based learning and exploration. At this stage, toddlers are eager to move, touch, and discover their surroundings, so the curriculum provides a safe and engaging environment where they can explore freely. Through responsive caregiving, simple routines, and meaningful interactions, toddlers develop language, problem-solving abilities, and confidence while learning to express their emotions and build relationships with others.",
             "activities": [
                 "Creative play with shapes and colors",
                 "Music and movement exercises",
@@ -54,9 +54,9 @@
             "keyFocus": "Promoting curiosity, coordination, and social engagement."
         },
         "preschool": {
-            "title": "Preschool (2-3 years)",
+            "title": "Creative Curriculum for Twos (2-3 years)",
             "description": "Fostering a solid foundation for academic and social success.",
-            "details": "Our Preschool program prepares your child for the next steps in their educational journey. Through a blend of structured learning and creative play, we focus on early literacy, numeracy, and problem-solving skills. Our curriculum includes storytelling, group discussions, and hands-on activities that encourage teamwork and critical thinking. We also emphasize social-emotional development to help your child build strong relationships and self-confidence.",
+            "details": "The Creative Curriculum for Twos supports growing independence, language development, and early cognitive skills through hands-on, interactive experiences. Twos are naturally curious and thrive in an environment that encourages movement, creativity, and social interaction. The curriculum balances structure with flexibility, allowing children to make choices, engage in pretend play, and develop problem-solving skills. Through guided activities and exploration, twos build foundational skills in communication, self-regulation, and collaboration, preparing them for the next stages of learning.",
             "activities": [
                 "Basic number and letter recognition",
                 "Storytelling and group discussions",
@@ -73,6 +73,8 @@
     },
     "programDetails": {
         "title": "Activities",
+        "scheduleTitle": "Daily Schedule",
+        "scheduleDescription": "Click on the image to view the full schedule.",
         "close": "Close"
     },
     "gallery": {

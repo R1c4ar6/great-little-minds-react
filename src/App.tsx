@@ -9,10 +9,12 @@ import Gallery from './components/Gallery';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import ProgramDetails from './components/ProgramDetails';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Menu />
       <Routes>
         {/* Main pages */}
