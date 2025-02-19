@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import infantCare from '../assets/programs/CREATIVECURRICULUMFORINFANT.jpg';
-import toddlerCare from '../assets/programs/CREATIVECURRICULUMFORTODDLERS.jpg';
-import preschool from '../assets/programs/CREATIVECURRICULUMFORFORTWOS.jpg';
 import { Container, Row, Modal, Button } from 'react-bootstrap';
+import infantCare from '../assets/programs/CREATIVECURRICULUMFORINFANT.png';
+import toddlerCare from '../assets/programs/CREATIVECURRICULUMFORTODDLERS.png';
+import preschool from '../assets/programs/CREATIVECURRICULUMFORFORTWOS.png';
 import infantScheduleEn from '../assets/schedule/1.png';
 import infantScheduleEs from '../assets/schedule/2.png';
 import toddlerScheduleEn from '../assets/schedule/3.png';
@@ -17,7 +17,6 @@ const ProgramDetails: React.FC = () => {
     const { t, i18n } = useTranslation();
     const [showModal, setShowModal] = useState(false);
 
-    // Scroll to the top when the component mounts
     useEffect(() => {
         window.scrollTo({
             top: 0,
@@ -87,28 +86,30 @@ const ProgramDetails: React.FC = () => {
                                 </li>
                             ))}
                         </ul>
-
-                        {/* Add Schedule Image */}
-                        <div className="mt-5">
-                            <h3 className="mb-3">{t('programDetails.scheduleTitle')}</h3>
-                            <img
-                                src={program.scheduleImg}
-                                alt="Program Schedule"
-                                className="img-fluid rounded shadow-sm cursor-pointer"
-                                onClick={handleShowModal}
-                                style={{ cursor: 'pointer' }}
-                            />
-                            <p className="text-muted mt-2">
-                                {t('programDetails.scheduleDescription')}
-                            </p>
-                        </div>
                     </div>
+                    
                     <div className="col-lg-4 d-flex align-items-center">
                         <img
                             src={program.image}
                             alt={program.title}
-                            className="img-fluid rounded shadow-sm"
+                            className="img-fluid"
                         />
+                    </div>
+                </Row>
+                <Row>
+                    {/* Add Schedule Image */}
+                    <div className="col-lg-12 col-md-8 mt-5">
+                        <h3 className="mb-3">{t('programDetails.scheduleTitle')}</h3>
+                        <img
+                            src={program.scheduleImg}
+                            alt="Program Schedule"
+                            className="img-fluid rounded shadow-sm cursor-pointer"
+                            onClick={handleShowModal}
+                            style={{ cursor: 'pointer' }}
+                        />
+                        <p className="text-muted mt-2">
+                            {t('programDetails.scheduleDescription')}
+                        </p>
                     </div>
                 </Row>
             </Container>

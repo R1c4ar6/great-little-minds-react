@@ -2,7 +2,7 @@ import React from 'react';
 import infantCare from '../assets/omar-lopez-vTknj2OxDVg-unsplash.jpg';
 import toddlerCare from '../assets/ana-klipper-1m2ZCygwVZ4-unsplash.jpg';
 import preschool from '../assets/gabe-pierce-mLqWFEtlIEs-unsplash.jpg';
-import { Container } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 
@@ -13,7 +13,7 @@ const Programs: React.FC = () => {
         <section id="programs" className="bg-light section-padding">
             <Container>
                 <h2 className="text-center mb-5">{t('programs.title')}</h2>
-                <div className="row">
+                <Row>
                     <div className="col-md-4">
                         <div className="card mb-4 shadow-sm">
                             <img src={infantCare} className="card-img-top" alt="Infant Care" />
@@ -50,7 +50,7 @@ const Programs: React.FC = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </Row>
             </Container>
         </section>
     );

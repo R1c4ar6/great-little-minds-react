@@ -21,6 +21,60 @@
             "curriculum": "Plan de Estudios Atractivo"
         }
     },
+    "calendar": {
+        "title": "Calendario Escolar",
+        "events": {
+            "musicWorkshop": {
+                "title": "Taller de Música",
+                "start": "2025-02-19T09:00:00",
+                "end": "2025-02-19T11:00:00"
+            },
+            "parentTeacherMeeting": {
+                "title": "Reunión de Padres y Maestros",
+                "start": "2025-02-15T10:00:00",
+                "end": "2025-02-15T10:40:00"
+            },
+            "springBreak": {
+                "title": "Vacaciones de Primavera",
+                "start": "2025-03-01",
+                "end": "2025-03-15"
+            },
+            "scienceFair": {
+                "title": "Feria de Ciencias",
+                "start": "2025-04-10T09:00:00",
+                "end": "2025-04-10T15:00:00"
+            },
+            "fieldTrip": {
+                "title": "Excursión al Museo",
+                "start": "2025-05-05T08:00:00",
+                "end": "2025-05-05T14:00:00"
+            },
+            "graduationCeremony": {
+                "title": "Ceremonia de Graduación",
+                "start": "2025-06-20T18:00:00",
+                "end": "2025-06-20T20:00:00"
+            },
+            "summerCamp": {
+                "title": "Campamento de Verano",
+                "start": "2025-07-01",
+                "end": "2025-07-15"
+            },
+            "backToSchool": {
+                "title": "Regreso a Clases",
+                "start": "2025-08-25T08:00:00",
+                "end": "2025-08-25T16:00:00"
+            }
+        },
+        "toolbar": {
+            "today": "Hoy",
+            "previous": "Atrás",
+            "next": "Siguiente",
+            "month": "Mes",
+            "week": "Semana",
+            "day": "Día",
+            "agenda": "Agenda"
+        }
+    },
     "programs": {
         "title": "Nuestros Programas",
         "infantCare": {

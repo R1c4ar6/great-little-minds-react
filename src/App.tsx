@@ -10,6 +10,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import ProgramDetails from './components/ProgramDetails';
 import ScrollToTop from './components/ScrollToTop';
+import Calendar from './components/Calendar';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             <About />
             <Programs />
             <Testimonials />
+            <Calendar />
             <Gallery />
             <Contact />
           </>
@@ -31,6 +33,7 @@ function App() {
 
         {/* Program details page */}
         <Route path="/programs/:id" element={<ProgramDetails />} />
+        {/* <Route path="/calendar" element={<Calendar />} /> */}
       </Routes>
       <Footer />
     </Router>

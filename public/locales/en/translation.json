@@ -21,6 +21,60 @@
             "curriculum": "Engaging Curriculum"
         }
     },
+    "calendar": {
+        "title": "School Calendar",
+        "events": {
+            "musicWorkshop": {
+                "title": "Music Workshop",
+                "start": "2025-02-19T09:00:00",
+                "end": "2025-02-19T11:00:00"
+            },
+            "parentTeacherMeeting": {
+                "title": "Parent-Teacher Meeting",
+                "start": "2025-02-15T10:00:00",
+                "end": "2025-02-15T10:40:00"
+            },
+            "springBreak": {
+                "title": "Spring Break",
+                "start": "2025-03-01",
+                "end": "2025-03-15"
+            },
+            "scienceFair": {
+                "title": "Science Fair",
+                "start": "2025-04-10T09:00:00",
+                "end": "2025-04-10T15:00:00"
+            },
+            "fieldTrip": {
+                "title": "Field Trip to Museum",
+                "start": "2025-05-05T08:00:00",
+                "end": "2025-05-05T14:00:00"
+            },
+            "graduationCeremony": {
+                "title": "Graduation Ceremony",
+                "start": "2025-06-20T18:00:00",
+                "end": "2025-06-20T20:00:00"
+            },
+            "summerCamp": {
+                "title": "Summer Camp",
+                "start": "2025-07-01",
+                "end": "2025-07-15"
+            },
+            "backToSchool": {
+                "title": "Back to School",
+                "start": "2025-08-25T08:00:00",
+                "end": "2025-08-25T16:00:00"
+            }
+        },
+        "toolbar": {
+            "today": "Today",
+            "previous": "Back",
+            "next": "Next",
+            "month": "Month",
+            "week": "Week",
+            "day": "Day",
+            "agenda": "Agenda"
+        }
+    },
     "programs": {
         "title": "Our Programs",
         "infantCare": {
