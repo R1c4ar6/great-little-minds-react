@@ -8,7 +8,7 @@
         "translate": "Traducir"
     },
     "hero": {
-        "welcome": "¡Bienvenido a Great Little Minds!",
+        "welcome": "¡Bienvenido a Little Great Minds!",
         "description": "Fomentando el crecimiento de su hijo desde la infancia hasta la niñez temprana.",
         "enroll": "Inscríbete Ahora"
     },
@@ -27,42 +27,134 @@
             "musicWorkshop": {
                 "title": "Taller de Música",
                 "start": "2025-02-19T09:00:00",
-                "end": "2025-02-19T11:00:00"
+                "end": "2025-02-19T11:00:00",
+                "color": "#d4b2a7"
             },
             "parentTeacherMeeting": {
                 "title": "Reunión de Padres y Maestros",
                 "start": "2025-02-15T10:00:00",
-                "end": "2025-02-15T10:40:00"
+                "end": "2025-02-15T10:40:00",
+                "color": "#d4b2a7"
             },
             "springBreak": {
                 "title": "Vacaciones de Primavera",
                 "start": "2025-03-01",
-                "end": "2025-03-15"
+                "end": "2025-03-15",
+                "color": "#e6ba95"
             },
             "scienceFair": {
                 "title": "Feria de Ciencias",
                 "start": "2025-04-10T09:00:00",
-                "end": "2025-04-10T15:00:00"
+                "end": "2025-04-10T15:00:00",
+                "color": "#d4b2a7"
             },
             "fieldTrip": {
                 "title": "Excursión al Museo",
                 "start": "2025-05-05T08:00:00",
-                "end": "2025-05-05T14:00:00"
+                "end": "2025-05-05T14:00:00",
+                "color": "#d4b2a7"
             },
             "graduationCeremony": {
                 "title": "Ceremonia de Graduación",
                 "start": "2025-06-20T18:00:00",
-                "end": "2025-06-20T20:00:00"
+                "end": "2025-06-20T20:00:00",
+                "color": "#e6ba95"
             },
             "summerCamp": {
                 "title": "Campamento de Verano",
                 "start": "2025-07-01",
-                "end": "2025-07-15"
+                "end": "2025-07-15",
+                "color": "#e6ba95"
             },
             "backToSchool": {
                 "title": "Regreso a Clases",
                 "start": "2025-08-25T08:00:00",
-                "end": "2025-08-25T16:00:00"
+                "end": "2025-08-25T16:00:00",
+                "color": "#e6ba95"
+            },
+            "newYearsDay": {
+                "title": "Día de Año Nuevo",
+                "start": "2025-01-01",
+                "end": "2025-01-01",
+                "color": "#d4b2a7"
+            },
+            "epiphany": {
+                "title": "Día de Reyes",
+                "start": "2025-01-06",
+                "end": "2025-01-06",
+                "color": "#d4b2a7"
+            },
+            "andalusiaDay": {
+                "title": "Día de Andalucía",
+                "start": "2025-02-28",
+                "end": "2025-02-28",
+                "color": "#ebdcd5"
+            },
+            "maundyThursday": {
+                "title": "Jueves Santo",
+                "start": "2025-04-17",
+                "end": "2025-04-17",
+                "color": "#d4b2a7"
+            },
+            "goodFriday": {
+                "title": "Viernes Santo",
+                "start": "2025-04-18",
+                "end": "2025-04-18",
+                "color": "#d4b2a7"
+            },
+            "laborDay": {
+                "title": "Día del Trabajador",
+                "start": "2025-05-01",
+                "end": "2025-05-01",
+                "color": "#d4b2a7"
+            },
+            "assumptionDay": {
+                "title": "Asunción de la Virgen",
+                "start": "2025-08-15",
+                "end": "2025-08-15",
+                "color": "#d4b2a7"
+            },
+            "nationalDay": {
+                "title": "Fiesta Nacional de España",
+                "start": "2025-10-12",
+                "end": "2025-10-12",
+                "color": "#d4b2a7"
+            },
+            "allSaintsDay": {
+                "title": "Día de Todos los Santos",
+                "start": "2025-11-01",
+                "end": "2025-11-01",
+                "color": "#d4b2a7"
+            },
+            "constitutionDay": {
+                "title": "Día de la Constitución",
+                "start": "2025-12-06",
+                "end": "2025-12-06",
+                "color": "#d4b2a7"
+            },
+            "immaculateConception": {
+                "title": "Inmaculada Concepción",
+                "start": "2025-12-08",
+                "end": "2025-12-08",
+                "color": "#d4b2a7"
+            },
+            "christmasDay": {
+                "title": "Día de Navidad",
+                "start": "2025-12-25",
+                "end": "2025-12-25",
+                "color": "#d4b2a7"
+            },
+            "dayOfTheToma": {
+                "title": "Día de la Toma",
+                "start": "2025-01-02",
+                "end": "2025-01-02",
+                "color": "#f8e7cd"
+            },
+            "corpusChristi": {
+                "title": "Corpus Christi",
+                "start": "2025-06-20",
+                "end": "2025-06-20",
+                "color": "#d4b2a7"
             }
         },
         "toolbar": {

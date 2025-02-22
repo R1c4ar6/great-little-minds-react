@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
                     <a href="#" className="text-white me-3 hover-effect">
                         <i className="bi bi-twitter-x fs-4"></i>
                     </a>
-                    <a href="#" className="text-white hover-effect">
+                    <a href={t('footer.instagram')} target="_blank" className="text-white hover-effect">
                         <i className="bi bi-instagram fs-4"></i>
                     </a>
                 </div>

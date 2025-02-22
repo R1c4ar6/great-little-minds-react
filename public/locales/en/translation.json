@@ -8,7 +8,7 @@
         "translate": "Translate"
     },
     "hero": {
-        "welcome": "Welcome to Great Little Minds!",
+        "welcome": "Welcome to Little Great Minds!",
         "description": "Nurturing your child's growth from infancy to early childhood.",
         "enroll": "Enroll Now"
     },
@@ -27,42 +27,134 @@
             "musicWorkshop": {
                 "title": "Music Workshop",
                 "start": "2025-02-19T09:00:00",
-                "end": "2025-02-19T11:00:00"
+                "end": "2025-02-19T11:00:00",
+                "color": "#d4b2a7"
             },
             "parentTeacherMeeting": {
                 "title": "Parent-Teacher Meeting",
                 "start": "2025-02-15T10:00:00",
-                "end": "2025-02-15T10:40:00"
+                "end": "2025-02-15T10:40:00",
+                "color": "#d4b2a7"
             },
             "springBreak": {
                 "title": "Spring Break",
                 "start": "2025-03-01",
-                "end": "2025-03-15"
+                "end": "2025-03-15",
+                "color": "#e6ba95"
             },
             "scienceFair": {
                 "title": "Science Fair",
                 "start": "2025-04-10T09:00:00",
-                "end": "2025-04-10T15:00:00"
+                "end": "2025-04-10T15:00:00",
+                "color": "#d4b2a7"
             },
             "fieldTrip": {
                 "title": "Field Trip to Museum",
                 "start": "2025-05-05T08:00:00",
-                "end": "2025-05-05T14:00:00"
+                "end": "2025-05-05T14:00:00",
+                "color": "#d4b2a7"
             },
             "graduationCeremony": {
                 "title": "Graduation Ceremony",
                 "start": "2025-06-20T18:00:00",
-                "end": "2025-06-20T20:00:00"
+                "end": "2025-06-20T20:00:00",
+                "color": "#e6ba95"
             },
             "summerCamp": {
                 "title": "Summer Camp",
                 "start": "2025-07-01",
-                "end": "2025-07-15"
+                "end": "2025-07-15",
+                "color": "#e6ba95"
             },
             "backToSchool": {
                 "title": "Back to School",
                 "start": "2025-08-25T08:00:00",
-                "end": "2025-08-25T16:00:00"
+                "end": "2025-08-25T16:00:00",
+                "color": "#e6ba95"
+            },
+            "newYearsDay": {
+                "title": "New Year's Day",
+                "start": "2025-01-01",
+                "end": "2025-01-01",
+                "color": "#d4b2a7"
+            },
+            "epiphany": {
+                "title": "Epiphany",
+                "start": "2025-01-06",
+                "end": "2025-01-06",
+                "color": "#d4b2a7"
+            },
+            "andalusiaDay": {
+                "title": "Andalusia Day",
+                "start": "2025-02-28",
+                "end": "2025-02-28",
+                "color": "#ebdcd5"
+            },
+            "maundyThursday": {
+                "title": "Maundy Thursday",
+                "start": "2025-04-17",
+                "end": "2025-04-17",
+                "color": "#d4b2a7"
+            },
+            "goodFriday": {
+                "title": "Good Friday",
+                "start": "2025-04-18",
+                "end": "2025-04-18",
+                "color": "#d4b2a7"
+            },
+            "laborDay": {
+                "title": "Labor Day",
+                "start": "2025-05-01",
+                "end": "2025-05-01",
+                "color": "#d4b2a7"
+            },
+            "assumptionDay": {
+                "title": "Assumption of Mary",
+                "start": "2025-08-15",
+                "end": "2025-08-15",
+                "color": "#d4b2a7"
+            },
+            "nationalDay": {
+                "title": "National Day of Spain",
+                "start": "2025-10-12",
+                "end": "2025-10-12",
+                "color": "#d4b2a7"
+            },
+            "allSaintsDay": {
+                "title": "All Saints' Day",
+                "start": "2025-11-01",
+                "end": "2025-11-01",
+                "color": "#d4b2a7"
+            },
+            "constitutionDay": {
+                "title": "Constitution Day",
+                "start": "2025-12-06",
+                "end": "2025-12-06",
+                "color": "#d4b2a7"
+            },
+            "immaculateConception": {
+                "title": "Immaculate Conception",
+                "start": "2025-12-08",
+                "end": "2025-12-08",
+                "color": "#d4b2a7"
+            },
+            "christmasDay": {
+                "title": "Christmas Day",
+                "start": "2025-12-25",
+                "end": "2025-12-25",
+                "color": "#d4b2a7"
+            },
+            "dayOfTheToma": {
+                "title": "Day of the Toma",
+                "start": "2025-01-02",
+                "end": "2025-01-02",
+                "color": "#f8e7cd"
+            },
+            "corpusChristi": {
+                "title": "Corpus Christi",
+                "start": "2025-06-20",
+                "end": "2025-06-20",
+                "color": "#d4b2a7"
             }
         },
         "toolbar": {
@@ -191,6 +283,7 @@
     "footer": {
         "copyright": "© 2025 Little Great Minds. All Rights Reserved.",
         "privacy": "Privacy Policy",
-        "terms": "Terms of Service"
+        "terms": "Terms of Service",
+        "instagram": "https://www.instagram.com/educraftea?igsh=MWF6ZHo1eHc5ZDZ3dw%3D%3D&utm_source=qr"
     }
 }

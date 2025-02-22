@@ -5,17 +5,34 @@ import 'react-big-calendar/lib/css/react-big-calendar.css';
 import { useTranslation } from 'react-i18next';
 import moment from 'moment';
 
-
 const localizer = momentLocalizer(moment);
 
+interface Event {
+    title: string;
+    start: Date;
+    end: Date;
+    color: string;
+}
 
 const Calendar: React.FC = () => {
     const { t, i18n } = useTranslation();
-    const events = Object.values(t('calendar.events', { returnObjects: true }));
-    console.log(events);
 
-    // Set the moment locale based on the current language
+    const events: Event[] = Object.values(t('calendar.events', { returnObjects: true })).map(event => ({
+        ...event,
+        start: new Date(event.start),
+        end: new Date(event.end),
+    }));
+
     moment.locale(i18n.language);
+
+    const eventPropGetter = (event: Event) => {
+        return {
+            style: {
+                backgroundColor: event.color, 
+                color: '#000',
+            },
+        };
+    };
 
     // Translate toolbar messages
     const messages = {
@@ -40,6 +57,7 @@ const Calendar: React.FC = () => {
                     titleAccessor="title"
                     culture={i18n.language}
                     messages={messages}
+                    eventPropGetter={eventPropGetter} // Apply event colors
                     views={['month', 'week', 'day', 'agenda']}
                     defaultView="month"
                     style={{ height: 500 }}
