@@ -1,50 +1,66 @@
-# React + TypeScript + Vite
+[![Netlify Status](https://api.netlify.com/api/v1/badges/03a8a538-65fe-4f03-a3bb-9659936edf08/deploy-status)](https://app.netlify.com/sites/littlegreatminds/deploys)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#  Little Great Minds - React Frontend
 
-Currently, two official plugins are available:
+This repository contains the React-based frontend for the Little Great Minds school website, which provides information and services for parents and children aged 0 to 3 years old. It's built using:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+*   **React:** A JavaScript library for building user interfaces.
+*   **TypeScript:** A superset of JavaScript that adds static typing, improving code maintainability and reducing errors.
+*   **Vite:** A build tool that provides a fast and efficient development experience.
 
-## Expanding the ESLint configuration
+## Purpose
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+This frontend application serves as the main website for Little Great Minds, providing information about the school, its programs, and services. It allows parents to learn more about the school, its mission, and its values, as well as get in touch with the administration.
 
-- Configure the top-level `parserOptions` property like this:
+## Key Features
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+*   School Overview: A brief introduction to the school, its history, and its mission.
+*   Programs and Services: Information about the school's programs and services for children aged 0 to 3 years old.
+*   Contact and Admission: A contact form and information about the admission process.
+*   Responsive Design: A mobile-friendly design that adapts to different screen sizes and devices.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Getting Started
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+1.  **Clone the repository:**
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+    ```bash
+    git clone https://github.com/R1c4ar6/great-little-minds-react.git
+    ```
+
+2.  **Install dependencies:**
+
+    ```bash
+    npm install  # or yarn install or pnpm install
+    ```
+
+3.  **Start the development server:**
+
+    ```bash
+    npm run dev  # or yarn dev or pnpm dev
+    ```
+
+    This will start the application in development mode with hot module replacement (HMR).
+
+4.  **Open your browser and navigate to the address shown in the console (usually `http://localhost:5173`).**
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
