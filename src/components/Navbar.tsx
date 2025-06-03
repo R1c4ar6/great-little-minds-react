@@ -39,6 +39,9 @@ const NavbarComponent: React.FC = () => {
                         <Nav.Link as={Link} to="/#testimonials">
                             {t('navbar.testimonials')}
                         </Nav.Link>
+                        <Nav.Link as={Link} to="/#services">
+                            {t('services.title')}
+                        </Nav.Link>
                         <Nav.Link as={Link} to="/#contact">
                             {t('navbar.contact')}
                         </Nav.Link>

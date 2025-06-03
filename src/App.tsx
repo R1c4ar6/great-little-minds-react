@@ -11,6 +11,7 @@ import Footer from './components/Footer';
 import ProgramDetails from './components/ProgramDetails';
 import ScrollToTop from './components/ScrollToTop';
 import Calendar from './components/Calendar';
+import Services from './components/Services';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
             <Testimonials />
             <Calendar />
             <Gallery />
+            <Services />
             <Contact />
           </>
         } />

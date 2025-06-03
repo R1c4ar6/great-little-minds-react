@@ -284,5 +284,58 @@
         "copyright": "© 2025 Little Great Minds. Todos los Derechos Reservados.",
         "privacy": "Política de Privacidad",
         "terms": "Términos de Servicio"
+    },
+    "services": {
+        "title": "Servicios",
+        "tuition": {
+            "title": "Matrícula",
+            "description": "Incluye uniformes y seguro médico privado para ofrecer tranquilidad y cobertura integral desde el primer día.",
+            "price": "800€"
+        },
+        "monthlyPayment": {
+            "title": "Mensualidad",
+            "description": "Jornada Completa de 9:00 - 15:00",
+            "description2": "Media jornada de 9:00 - 13:00",
+            "price": "550€",
+            "price2": "450€"
+        },
+        "cafeteria": {
+            "title": "Cafetería",
+            "description": "Servicio completo de desayuno, comida y merienda. Elaboramos todos los menús en nuestra cocina propia, utilizando ingredientes frescos y adaptados a las necesidades nutricionales de cada etapa.",
+            "price": "100€"
+        },
+        "extendedHours": {
+            "title": "Horarios Extendidos",
+            "description": "Incluye aula matinal desde las 7:00 y actividades lúdico-educativas por la tarde. Ideal para familias conhorarios laborales extensos.",
+            "price": "50€"
+        },
+        "workshop": {
+            "title": "Taller",
+            "description": "Actividades temáticas que se ofrecen fuera del horario lectivo. Algunos ejemplos incluyen:",
+            "activities": [
+                "Taller de estimulación musical",
+                "Juegos de agua y psicomotricidad",
+                "Cuentacuentos interactivo",
+                "Taller sensorial con materiales naturales",
+                "Mini chef (cocina sin fuego)"
+            ],
+            "price": "30€"
+        },
+        "parentSchool": {
+            "title": "Escuela de Padres",
+            "description": "Sesiones mensuales con profesionales de la psicología y la educación donde se abordan temas como:",
+            "topics": [
+                "Límites y normas desde el respeto",
+                "Desarrollo emocional en la primera infancia",
+                "Comunicación positiva en casa",
+                "Rutinas saludables y sueño infantil"
+            ],
+            "price": "25€"
+        },
+        "summerShool": {
+            "title": "Escuela de Verano",
+            "description": "Programa especial durante julio y agosto con actividades acuáticas, juegos al aire libre, experiencias sensoriales, y dinámicas de grupo. Todo ello en un ambiente lúdico, relajado y seguro, que garantiza continuidad y diversión en vacaciones.",
+            "price": "400€"
+        }
     }
 }

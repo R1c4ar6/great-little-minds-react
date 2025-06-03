@@ -285,5 +285,58 @@
         "privacy": "Privacy Policy",
         "terms": "Terms of Service",
         "instagram": "https://www.instagram.com/educraftea?igsh=MWF6ZHo1eHc5ZDZ3dw%3D%3D&utm_source=qr"
+    },
+    "services": {
+        "title": "Services",
+        "tuition": {
+            "title": "Tuition",
+            "description": "Includes uniforms and private medical insurance to provide peace of mind and comprehensive coverage from day one.",
+            "price": "€800"
+        },
+        "montlyPayment": {
+            "title": "Monthly Fee",
+            "description": "Full Day from 9:00 AM - 3:00 PM",
+            "description2": "Half Day from 9:00 AM - 1:00 PM",
+            "price": "€550",
+            "price2": "€450"
+        },
+        "cafeteria": {
+            "title": "Cafeteria",
+            "description": "Full breakfast, lunch, and snack service. All menus are prepared in our own kitchen using fresh ingredients tailored to the nutritional needs of each developmental stage.",
+            "price": "€100"
+        },
+        "extendedHours": {
+            "title": "Extended Hours",
+            "description": "Includes morning classroom from 7:00 AM and educational-recreational activities in the afternoon. Ideal for families with long work schedules.",
+            "price": "€50"
+        },
+        "workshop": {
+            "title": "Workshop",
+            "description": "Thematic activities offered outside regular school hours. Some examples include:",
+            "activities": [
+                "Musical stimulation workshop",
+                "Water games and psychomotor activities",
+                "Interactive storytelling",
+                "Sensory workshop with natural materials",
+                "Mini chef (no-fire cooking)"
+            ],
+            "price": "€30"
+        },
+        "parentSchool": {
+            "title": "Parent School",
+            "description": "Monthly sessions with psychology and education professionals covering topics such as:",
+            "topics": [
+                "Setting boundaries and rules with respect",
+                "Emotional development in early childhood",
+                "Positive communication at home",
+                "Healthy routines and children's sleep"
+            ],
+            "price": "€25"
+        },
+        "summerShool": {
+            "title": "Summer School",
+            "description": "Special program during July and August featuring water activities, outdoor games, sensory experiences, and group dynamics—all in a fun, relaxed, and safe environment that ensures continuity and enjoyment during vacations.",
+            "price": "€400"
+        }
     }
 }
