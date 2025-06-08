@@ -293,7 +293,7 @@
             "description": "Includes uniforms and private medical insurance to provide peace of mind and comprehensive coverage from day one.",
             "price": "€800"
         },
-        "montlyPayment": {
+        "monthlyPayment": {
             "title": "Monthly Fee",
             "description": "Full Day from 9:00 AM - 3:00 PM",
             "description2": "Half Day from 9:00 AM - 1:00 PM",
@@ -333,7 +333,7 @@
             ],
             "price": "€25"
         },
-        "summerShool": {
+        "summerSchool": {
             "title": "Summer School",
             "description": "Special program during July and August featuring water activities, outdoor games, sensory experiences, and group dynamics—all in a fun, relaxed, and safe environment that ensures continuity and enjoyment during vacations.",
             "price": "€400"

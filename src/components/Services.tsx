@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Container, Row, Col } from 'react-bootstrap';
+
 import tuitionImage from '../assets/services/tuition.jpg';
 import monthlyPaymentImage from '../assets/services/monthly.jpg';
 import cafeteriaImage from '../assets/services/cafeteria.jpg';
@@ -11,76 +12,100 @@ import summerSchoolImage from '../assets/services/summer.jpg';
 
 const Services: React.FC = () => {
     const { t } = useTranslation();
+
+    // { title: "...", tuition: { ... }, monthlyPayment: { ... }, ... }
     const services = t('services', { returnObjects: true }) as any;
 
-    const serviceImages = {
+    const serviceImages: { [key: string]: string } = {
         tuition: tuitionImage,
         monthlyPayment: monthlyPaymentImage,
         cafeteria: cafeteriaImage,
         extendedHours: extendedHoursImage,
         workshop: workshopImage,
         parentSchool: parentSchoolImage,
-        summerShool: summerSchoolImage
-    };
-
-    const renderService = (serviceKey: string, serviceData: any) => {
-        return (
-            <Row key={serviceKey} className="mb-5 align-items-center">
-                <Col md={3} className="mb-3 mb-md-0">
-                    <img 
-                        src={serviceImages[serviceKey as keyof typeof serviceImages]} 
-                        alt={serviceData.title} 
-                        className="img-fluid rounded shadow-sm"
-                    />
-                </Col>
-                <Col md={6} className="mb-3 mb-md-0">
-                    <h3 className="h4">{serviceData.title}</h3>
-                    <p>{serviceData.description}</p>
-                    {serviceData.description2 && <p>{serviceData.description2}</p>}
-                    
-                    {/* Render activities if they exist */}
-                    {serviceData.activities && (
-                        <ul className="mt-2">
-                            {serviceData.activities.map((activity: string, index: number) => (
-                                <li key={index}>{activity}</li>
-                            ))}
-                        </ul>
-                    )}
-                    
-                    {/* Render topics if they exist (for parent school) */}
-                    {serviceData.topics && (
-                        <ul className="mt-2">
-                            {serviceData.topics.map((topic: string, index: number) => (
-                                <li key={index}>{topic}</li>
-                            ))}
-                        </ul>
-                    )}
-                </Col>
-                <Col md={3} className="text-md-right">
-                    <div className="bg-light p-3 rounded d-inline-block">
-                        <h4 className="h5 text-primary mb-0">{serviceData.price}</h4>
-                        {serviceData.price2 && (
-                            <h4 className="h5 text-primary mb-0 mt-2">{serviceData.price2}</h4>
-                        )}
-                    </div>
-                </Col>
-            </Row>
-        );
+        summerSchool: summerSchoolImage
     };
 
     return (
         <section id="services" className="section-padding bg-light">
             <Container>
-                <Row className="mb-5">
+                <Row className="mt-5">
                     <Col>
-                        <h1 className="display-4">{services.title}</h1>
+                        <h2 className="text-center mb-5">{services.title}</h2>
                     </Col>
                 </Row>
-                
-                {Object.entries(services).map(([key, value]) => {
+
+                {Object.entries(services).map(([key, serviceData], index) => {
                     // Skip the title entry
                     if (key === 'title') return null;
-                    return renderService(key, value);
+
+                    const isOdd = index % 2 !== 0;
+
+                    const imageCol = (
+                        <Col key={`${key}-image`} md={4} className="mb-3 mb-md-0">
+                            <img
+                                src={serviceImages[key]} 
+                                alt={(serviceData as any).title}
+                                className="img-fluid rounded shadow-sm"
+                            />
+                        </Col>
+                    );
+
+                    const textCol = (
+                        <Col key={`${key}-text`} md={5} className="mb-3 mb-md-0">
+                            {/* Cast serviceData to any to access properties */}
+                            <h3 className="text-center">{(serviceData as any).title}</h3>
+                            <p>{(serviceData as any).description}</p>
+                            <p>{(serviceData as any).description2}</p>
+
+                            {(serviceData as any).activities && (
+                                <ul className="mt-2">
+                                    {(serviceData as any).activities.map((activity: string, idx: number) => (
+                                        <li key={idx}>{activity}</li>
+                                    ))}
+                                </ul>
+                            )}
+
+                            {(serviceData as any).topics && (
+                                <ul className="mt-2">
+                                    {(serviceData as any).topics.map((topic: string, idx: number) => (
+                                        <li key={idx}>{topic}</li>
+                                    ))}
+                                </ul>
+                            )}
+                        </Col>
+                    );
+
+                    const priceCol = (
+                        <Col key={`${key}-price`} md={3} className="mb-3 mb-md-0">
+                            <div className="text-center">
+                                <h5>{(serviceData as any).price}</h5>
+                                <h5>{(serviceData as any).price2}</h5>
+
+                            </div>
+                        </Col>
+                    );
+
+                    return (
+                        <Row key={key} className={`mb-5 align-items-center p-5 rounded ${isOdd ? 'bg-alt' : ''}`}
+                        >
+                            {isOdd ? (
+                                // Odd index: Price Left, Text Middle, Image Right
+                                <>
+                                    {priceCol}
+                                    {textCol}
+                                    {imageCol}
+                                </>
+                            ) : (
+                                // Even index: Image Left, Text Middle, Price Right (default)
+                                <>
+                                    {imageCol}
+                                    {textCol}
+                                    {priceCol}
+                                </>
+                            )}
+                        </Row>
+                    );
                 })}
             </Container>
         </section>

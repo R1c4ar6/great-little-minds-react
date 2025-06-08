@@ -11,11 +11,6 @@ const Contact: React.FC = () => {
         e.preventDefault();
         setIsSubmitted(true);
         e.target.reset();
-
-        //Do I need this?
-        // setTimeout(() => {
-        //     setIsSubmitted(false);
-        // }, 6000);
     };
 
     return (
@@ -34,7 +29,7 @@ const Contact: React.FC = () => {
 
                             <div className="contact-form card shadow-lg">
                                 <div className="card-body p-4">
-                                    <form id="contactForm" onSubmit={handleSubmit} method="post">
+                                    <form id="contactForm" onSubmit={handleSubmit} method="post" data-netlify="true">
                                         <div className="mb-4">
                                             <label htmlFor="fullName" className="form-label">{t("contact.formName")} <span className="text-danger">*</span></label>
                                             <input type="text" name="fullName" className="form-control" id="fullName" placeholder={`${t('contact.formNamePlaceholder')}`} required />
@@ -52,7 +47,7 @@ const Contact: React.FC = () => {
                                             <textarea name="userMessage" id="userMessage" rows={6} placeholder={`${t('contact.formMessagePlaceholder')}`} className="form-control" required></textarea>
                                         </div>
                                         <div className="text-center">
-                                            <button type="submit" className="btn btn-warning btn-lg">{t("contact.formButton")}</button>
+                                            <button type="submit" className="btn">{t("contact.formButton")}</button>
                                         </div>
                                     </form>
                                 </div>
