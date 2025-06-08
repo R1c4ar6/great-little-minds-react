@@ -28,14 +28,13 @@ function App() {
             <Testimonials />
             <Calendar />
             <Gallery />
-            <Services />
             <Contact />
           </>
         } />
 
         {/* Program details page */}
         <Route path="/programs/:id" element={<ProgramDetails />} />
-        {/* <Route path="/calendar" element={<Calendar />} /> */}
+        <Route path="/services" element={<Services />} />
       </Routes>
       <Footer />
     </Router>

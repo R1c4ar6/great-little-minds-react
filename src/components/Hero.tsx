@@ -32,7 +32,7 @@ const Hero: React.FC = () => {
                 <div className="container">
                     <h1 className="display-4 hero-title">{t('hero.welcome')}</h1>
                     <p className="lead">{t('hero.description')}</p>
-                    <a href="#contact" className="btn btn-warning btn-lg">{t('hero.enroll')}</a>
+                    <a href="#contact" className="btn">{t('hero.enroll')}</a>
                 </div>
             </div>
         </section>

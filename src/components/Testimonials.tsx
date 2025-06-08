@@ -12,7 +12,7 @@ const Testimonials: React.FC = () => {
     useEffect(() => {
         const interval = setInterval(() => {
             setActiveIndex((prevIndex) => (prevIndex + 1) % testimonials.length);
-        }, 30000);
+        }, 50000);
 
         return () => clearInterval(interval);
     }, [testimonials.length]);
